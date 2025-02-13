@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('imagen/fondo.jpg') no-repeat center center/cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .contenedor {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .caja-texto {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .contenido {
+    max-height: 300px; 
+    overflow-y: auto;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .contenido h2 {
+    color: #115aa8; 
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .contenido p {
+    color: #2175d9; 
+    font-size: 16px;
+  }
+  .contenido ul {
+    padding-left: 20px;
+  }
+  .contenido li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .contenido li strong {
+    color: #0066cc; 
+  }
+  .contenido li span {
+    color: black; 
+  }
+  .boton {
+    margin-top: 20px;
+  }
+  .boton button {
+    background: #eb0b16;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .logo {
+    position: absolute;
+    top: -22px; 
+    right: -22px;
+    width: 230px;
+  }
