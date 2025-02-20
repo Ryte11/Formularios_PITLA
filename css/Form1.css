@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to left, #003366 50%, transparent 50%), url('IMG/pixelcut-export.jpg') center center / cover no-repeat;
@@ -10,7 +12,7 @@ body {
 
 /* Asegura que el fondo detrás se vea bien */
 body {
-    background: url('imagen/fondo.jpg') no-repeat center center/cover;
+    background: url('../imagen/fondo.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
